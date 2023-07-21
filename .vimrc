@@ -23,3 +23,10 @@ set background=dark
 " Showcase comments in italics
 highlight Comment cterm=italic gui=italic
 
+"-- Syntax highlight on
+syntax on
+
+"-- Install Plugins
+call plug#begin()
+Plug 'preservim/nerdtree'
+call plug#end()
