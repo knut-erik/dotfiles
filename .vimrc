@@ -30,3 +30,6 @@ syntax on
 call plug#begin()
 Plug 'preservim/nerdtree'
 call plug#end()
+
+"-- Show hidden files in NERDTree
+let NERDTreeShowHidden=1
